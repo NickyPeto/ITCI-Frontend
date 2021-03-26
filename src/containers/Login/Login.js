@@ -30,7 +30,7 @@ export const Login = () => {
   };
 
   return (
-    <div className="container d-flex p-2 bd-highlight">
+    <div className="container d-flex bd-highlight" id="form-box">
       <h1 className="header">Login</h1>
       <Formik
         initialValues={{
@@ -61,6 +61,6 @@ export const Login = () => {
       >
         {(props) => <LoginForm {...props} />}
       </Formik>
-    </div>
+      </div>
   );
 };

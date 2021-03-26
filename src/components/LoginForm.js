@@ -5,7 +5,7 @@ import React from 'react';
 const LoginForm = ({ handleSubmit, errors, validation } ) => {
 
     return (
-        <div className="container d-flex p-2 bd-highlight">
+        <div className="container d-flex p-2 bd-highlight" id="form-container">
             <Form onSubmit={handleSubmit}className="form mb-3">
                 <div className="email">
                     <label htmlFor="email" className="form-label mt-3">Email</label>
